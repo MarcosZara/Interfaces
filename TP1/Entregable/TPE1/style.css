@@ -1,0 +1,74 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: solid 2px darkgrey;
+    border-radius: 20px;
+}
+body {
+    background-image: url(./image/imagenBody.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn {
+    padding: 8px;
+    margin: 7px;
+    border-radius: 20px;
+    background-color: rgba(66, 64, 64, 0.442);
+    border: solid white 2px;
+    color: white;
+    box-shadow: 0 0 20px 0 grey;
+}
+.btn:hover {
+    font-size: 14px;
+    background-color: rgb(69, 72, 74);
+    
+}
+
+
+
+
+.colors {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+a {
+    background-color:rgb(207, 245, 242);
+    
+  }
+
+  .container-body {
+    margin-top: 5px;
+   display: flex;
+   justify-content: center;
+}
+
+.container-filtros {
+    margin-top: 20px;    
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-nav1 {
+    display: flex;
+    width: 620px;
+    justify-content: space-between;
+}
+
+#myCanvas {
+  box-shadow: 0 0 50px 0 grey;
+  margin-top: 15px;
+}
+
